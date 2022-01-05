@@ -100,8 +100,10 @@ h4{
     color:rgb(99, 10, 10);
 }
 .bottom-b{
-    display: flex;
     background-image: linear-gradient(cyan,blue);
+}
+.flex{
+    display:flex;
 }
 .middel{
     text-align: center;
@@ -122,8 +124,10 @@ h4{
 }
 #foot{
     text-align: center;
-    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
 
+}
+#ex{
+    text-align: center;
 }
