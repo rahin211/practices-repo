@@ -8,22 +8,32 @@ body{
 }
 h1{
     font-size: 50px;
-    color: mediumblue;
+    color: orangered
 }
 h2{
     margin-top: 0px;
-    color: mediumblue;
+    color:orangered;
 }
 h4{
     margin-top: 100px;
-    font-weight: bold; 
+    font-weight: bold;
+    color: aliceblue; 
+}
+.font-color{
+    color: white;
 }
 .top{
     display: flex;
-    background-image: url(annie-spratt-zA7I5BtFbvw-unsplash.jpg);
+    background-image: url(ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-size: cover;
+    width: fit-content;
     background-repeat: no-repeat;
-    height:700px;
-    margin-bottom:80px;
+    height:100vh;
+}
+.left-pad{
+    margin-left: 50px;
+    margin-right: 80px;
+    text-align: justify;
 }
 .line{
     display: inline-flex;
@@ -32,6 +42,7 @@ h4{
     padding-right:20px;
     font-size: 20px;
     text-align: right;
+    color: ghostwhite;
 }
 .first-divied{
     width:50% ;
@@ -48,7 +59,7 @@ h4{
     width:80%;
     margin-top:30px;
 }
-#box{
+.box{
     text-decoration: none;
     border: 2px;
     border-radius: 5px;
@@ -56,11 +67,35 @@ h4{
     padding: 10px 30px;
     color: ghostwhite;
     font-size: 18px;
+    font-weight: bold;
 }
 .bottom{
     display: flex;
-    background-image: url(portfolio-img.jpg);
-    height: 500px;
+    background-image: url(kevin-bhagat-zNRITe8NPqY-unsplash.jpg);
+    background-size: cover;
+    height:100vh; 
     width: fit-content;
     background-repeat: no-repeat;
+}
+.first-divied img{
+    width:80%;
+    margin-top:80px;
+    padding-right: 160px;
+}
+.top-pad{
+    margin-top: 80px;
+    font-size: 25px;
+}
+#texxt{
+    padding-right: 45px;
+    text-align: justify;
+    color:black;
+    font-weight: bold;
+}
+.padding-p{
+    margin-top:25px;
+}
+.color-pa{
+    font-size: 20px;
+    color:rgb(99, 10, 10);
 }
